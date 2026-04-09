@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lesley Muzavazi - Master's in Analytics | Data Analytics, Financial Analysis, Predictive Modeling | Python, SQL, Power BI">
+    <title>Lesley Muzavazi | Analytics Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    
+    <style>
+        /* Smooth Scrolling */
+        html { scroll-behavior: smooth; }
+
+        /* Navbar */
+        .custom-navbar {
+            background-color: #000;
+        }
+        .custom-navbar .nav-link {
+            color: #fff !important;
+            font-weight: 500;
+            margin-left: 15px;
+        }
+        .custom-navbar .nav-link:hover {
+            color: #d95bb3 !important;
+        }
+
+        /* Project Cards */
+        .project-card:hover {
+            transform: translateY(-5px);
+            transition: 0.3s;
+        }
+        .project-card img {
+            height: auto;
+            width: 100%;
+            object-fit: contain;
+        }
+        .project-card .card-body {
+            padding: 1.25rem;
+        }
+        .project-card h5 {
+            min-height: 48px;
+        }
+        .project-card .project-description {
+            min-height: 120px;
+        }
+        .project-card .project-result {
+            min-height: 72px;
+        }
+        .project-card .project-links a {
+            font-size: 0.95rem;
+        }
+        .project-card .badge {
+            font-weight: 500;
+        }
+
+        /* Skill Tags */
+        .skill-tags {
+            margin-top: 10px;
+        }
+        .skill-tags span {
+            display: inline-block;
+            background-color: #e9ecef;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Lesley Muzavazi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5" style="background-color: #e9e9e9; padding-top: 100px;">
+        <div class="container text-center">
+            <h1 class="fw-bold display-4 mb-4">About</h1>
+            <div class="mb-4">
+                <img src="images/about/1.jpg" alt="Lesley Muzavazi profile picture" class="img-fluid rounded-4 shadow-sm" style="width: 170px; height: 170px; object-fit: cover;">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-11">
+                    <p class="mb-4" style="font-size: 0.95rem; line-height: 1.8;">
+                        I am a Master’s student in Analytics at Saint Louis University with a strong foundation in Accounting and over five years of experience in finance and data-driven decision-making. My background has equipped me with the ability to work with complex datasets, identify patterns, and translate data into actionable insights that support strategic business decisions.
+                    </p>
+                    <p class="mb-4" style="font-size: 0.95rem; line-height: 1.8;">
+                        I have developed skills across data analytics, financial analysis, and predictive modeling, with hands-on experience using tools such as Python, SQL, Excel, and Power BI. Through my coursework in analytics and hands-on projects, I have built a solid understanding of predictive analysis, including regression techniques, classification models, and data-driven forecasting to support decision-making in uncertain environments.
+                    </p>
+                    <p class="mb-0" style="font-size: 0.95rem; line-height: 1.8;">
+                        I am interested in applying analytics across a wide range of industries, including finance, healthcare, technology, retail, and public sector organizations. I am especially motivated by opportunities where data can be used to improve efficiency, optimize processes, and drive meaningful impact. My goal is to bridge the gap between data and decision-making by delivering insights that are both technically sound and practically valuable.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Projects</h2>
+                <p class="text-muted mb-0">
+                    A selection of analytics, dashboarding, and application development projects demonstrating technical, business, and problem-solving skills.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="card project-card border-0 shadow-sm h-100">
+                        <img src="images/projects/1.jpg" class="card-img-top rounded-top" alt="TechStream Customer Analytics Project">
+                        <div class="card-body text-start d-flex flex-column">
+                            <h5 class="fw-bold">TechStream Customer Analytics</h5>
+                            <p class="text-muted project-description">
+                                Delivered an end-to-end business analytics solution on a SaaS customer dataset with 1,000 records to understand churn behavior, identify revenue drivers, and segment customers. Combined statistical analysis, machine learning, and data visualization to generate actionable insights for retention strategy, pricing decisions, and customer engagement.
+                            </p>
+                            <p class="fw-semibold mb-2 project-result">
+                                Result: Identified high-risk churn segments and key revenue patterns to support data-driven retention and growth strategies.
+                            </p>
+                            <div class="mb-3">
+                                <span class="badge bg-light text-dark border me-1 mb-1">Python</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Random Forest</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Regression</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">K-Means</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Bootstrap</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Data Visualization</span>
+                            </div>
+                            <p class="text-muted small mb-2"><strong>Key Contributions:</strong></p>
+                            <ul class="text-muted small ps-3 mb-3">
+                                <li>Analyzed customer behavior to identify churn patterns linked to usage, tenure, and satisfaction.</li>
+                                <li>Built a Random Forest model to predict churn risk and support targeted retention strategies.</li>
+                                <li>Developed a regression model to estimate monthly revenue and highlight key business drivers.</li>
+                                <li>Applied K-means clustering to segment customers into actionable groups for personalized engagement.</li>
+                                <li>Translated analytical findings into business recommendations for improving retention and revenue growth.</li>
+                            </ul>
+                            <div class="mt-auto project-links">
+                                <a href="#" class="text-decoration-none fw-semibold">Project Write-up</a> |
+                                <a href="https://colab.research.google.com/drive/1B4bykD3MaCO0hJCtWzP74l1x15AwBpfa" target="_blank" class="text-decoration-none fw-semibold">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2, 3, 4 (identical structure as original - kept exactly the same) -->
+                <!-- Project 2 -->
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="card project-card border-0 shadow-sm h-100">
+                        <img src="images/projects/2.jpg" class="card-img-top rounded-top" alt="STL Mosaic Program Performance Dashboard">
+                        <div class="card-body text-start d-flex flex-column">
+                            <h5 class="fw-bold">STL Mosaic Program Performance Dashboard</h5>
+                            <p class="text-muted project-description">
+                                Developed a centralized analytics dashboard to monitor program performance, participant engagement, and organizational metrics across STL Mosaic initiatives. The dashboard integrates data from multiple programs to provide a structured, real-time view of operational performance.
+                            </p>
+                            <p class="fw-semibold mb-2 project-result">
+                                Result: Delivered a unified reporting system tracking 470+ participants, 50+ companies, and multi-program engagement metrics, improving visibility and decision-making efficiency.
+                            </p>
+                            <div class="mb-3">
+                                <span class="badge bg-light text-dark border me-1 mb-1">Excel</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Dashboard Design</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">KPI Tracking</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Data Visualization</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Program Analytics</span>
+                            </div>
+                            <p class="text-muted small mb-2"><strong>Key Contributions:</strong></p>
+                            <ul class="text-muted small ps-3 mb-3">
+                                <li>Built an executive-level dashboard summarizing key metrics including participants, companies, countries, and program activity.</li>
+                                <li>Visualized participant distribution across countries, industries, and fields of specialization.</li>
+                                <li>Designed KPI cards and charts for quick insight into program performance and engagement trends.</li>
+                                <li>Integrated multiple program datasets into a single structured reporting interface.</li>
+                                <li>Improved reporting efficiency by replacing fragmented tracking with a centralized dashboard.</li>
+                            </ul>
+                            <p class="text-muted small mt-2">*Portfolio version shown with selected metrics and visuals to protect internal organizational information.*</p>
+                            <div class="mt-auto project-links">
+                                <a href="https://www.stlmosaicproject.org/" target="_blank" class="text-decoration-none fw-semibold">About Organization</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="card project-card border-0 shadow-sm h-100">
+                        <img src="images/projects/3.jpg" class="card-img-top rounded-top" alt="Healthcare EMR Analytics System">
+                        <div class="card-body text-start d-flex flex-column">
+                            <h5 class="fw-bold">Healthcare EMR Analytics System (Capstone Project)</h5>
+                            <p class="text-muted project-description">
+                                Developed a full-featured Electronic Medical Record (EMR) analytics application as a capstone project, integrating data retrieval, cleaning, analysis, and visualization into a single Python-based system. The application simulates real-world healthcare workflows using API-driven patient data.
+                            </p>
+                            <p class="fw-semibold mb-2 project-result">
+                                Result: Delivered a robust analytics tool that transforms raw patient data into structured insights, visual reports, and decision-support outputs through an interactive, menu-driven interface.
+                            </p>
+                            <div class="mb-3">
+                                <span class="badge bg-light text-dark border me-1 mb-1">Python</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">REST API</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Pandas</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Matplotlib</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Data Engineering</span>
+                            </div>
+                            <p class="text-muted small mb-2"><strong>Key Contributions:</strong></p>
+                            <ul class="text-muted small ps-3 mb-3">
+                                <li>Built an end-to-end data pipeline to fetch, clean, and process patient data from a REST API.</li>
+                                <li>Performed analytical computations including patient counts, email domain distribution, condition frequencies, and average age.</li>
+                                <li>Developed multiple visualizations including bar charts, pie charts, and age distribution histograms.</li>
+                                <li>Implemented advanced features such as age-based filtering and generation of filtered analytical reports.</li>
+                                <li>Designed a menu-driven application interface with input validation and user interaction.</li>
+                                <li>Incorporated robust error handling for API failures, file operations, and data inconsistencies.</li>
+                            </ul>
+                            <div class="mt-auto project-links">
+                                <a href="#" class="text-decoration-none fw-semibold">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="card project-card border-0 shadow-sm h-100">
+                        <img src="images/projects/4.jpg" class="card-img-top rounded-top" alt="Emergency Department Dashboard">
+                        <div class="card-body text-start d-flex flex-column">
+                            <h5 class="fw-bold">Emergency Department Analytics Dashboard</h5>
+                            <p class="text-muted project-description">
+                                Developed a healthcare analytics dashboard to examine emergency department patient volume patterns across hours, days, seasons, and age groups using time-series data. The dashboard provides insights into demand fluctuations to support hospital staffing and operational planning.
+                            </p>
+                            <p class="fw-semibold mb-2 project-result">
+                                Result: Identified peak demand periods (including afternoon surges) and age-group-driven utilization patterns to support data-driven staffing and resource allocation decisions.
+                            </p>
+                            <div class="mb-3">
+                                <span class="badge bg-light text-dark border me-1 mb-1">Power BI</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Time Series Analysis</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Healthcare Analytics</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Data Visualization</span>
+                                <span class="badge bg-light text-dark border me-1 mb-1">Dashboard Design</span>
+                            </div>
+                            <p class="text-muted small mb-2"><strong>Key Contributions:</strong></p>
+                            <ul class="text-muted small ps-3 mb-3">
+                                <li>Analyzed emergency department visit trends by hour, day, and season to identify demand patterns.</li>
+                                <li>Identified peak utilization periods, including consistent late afternoon surges.</li>
+                                <li>Segmented patient visits by age group to understand demographic-driven demand.</li>
+                                <li>Designed clear visualizations including time-series charts and comparative dashboards.</li>
+                                <li>Translated analytical findings into actionable insights for staffing and capacity planning.</li>
+                            </ul>
+                            <div class="mt-auto project-links">
+                                <a href="#" class="text-decoration-none fw-semibold">View Dashboard</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5" style="background-color: #f8f9fa;">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-5">Skills</h2>
+            <div class="row justify-content-center g-4">
+                <!-- Python Skill -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="px-3">
+                        <img src="images/skills/1.png" alt="Python Icon" class="img-fluid mb-3" style="max-height: 90px;">
+                        <h5 class="fw-bold">Python</h5>
+                        <p class="text-muted small mb-2">
+                            Strong foundation in Python for data analysis and problem-solving, including data cleaning, transformation, and exploratory analysis using libraries such as pandas and NumPy. Experienced in building analytical workflows and applying predictive techniques to support data-driven decision making.
+                        </p>
+                        <div class="skill-tags">
+                            <span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>Data Cleaning</span>
+                        </div>
+                        <a href="#" class="text-decoration-none fw-semibold small">View Projects</a>
+                    </div>
+                </div>
+                <!-- Data Visualization Skill -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="px-3">
+                        <img src="images/skills/2.png" alt="Data Visualization Icon" class="img-fluid mb-3" style="max-height: 90px;">
+                        <h5 class="fw-bold">Data Visualization</h5>
+                        <p class="text-muted small mb-2">
+                            Skilled in designing clear and impactful visualizations using tools such as Power BI, Excel, and Python (Matplotlib). Focused on translating complex data into intuitive dashboards that support executive-level insights and strategic decision-making.
+                        </p>
+                        <div class="skill-tags">
+                            <span>Power BI</span><span>Excel</span><span>Matplotlib</span><span>Dashboard Design</span>
+                        </div>
+                        <a href="#" class="text-decoration-none fw-semibold small">View Dashboards</a>
+                    </div>
+                </div>
+                <!-- SQL Skill -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="px-3">
+                        <img src="images/skills/3.png" alt="SQL Icon" class="img-fluid mb-3" style="max-height: 90px;">
+                        <h5 class="fw-bold">SQL</h5>
+                        <p class="text-muted small mb-2">
+                            Proficient in SQL for querying, managing, and analyzing structured data. Experienced in writing efficient queries, performing joins, aggregations, and data transformations to extract meaningful insights from large datasets.
+                        </p>
+                        <div class="skill-tags">
+                            <span>Joins</span><span>Aggregation</span><span>Data Extraction</span><span>Query Optimization</span>
+                        </div>
+                        <a href="#" class="text-decoration-none fw-semibold small">View Queries</a>
+                    </div>
+                </div>
+                <!-- Data Storytelling Skill -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="px-3">
+                        <img src="images/skills/4.png" alt="Data Storytelling Icon" class="img-fluid mb-3" style="max-height: 90px;">
+                        <h5 class="fw-bold">Data Storytelling</h5>
+                        <p class="text-muted small mb-2">
+                            Strong ability to communicate insights through data by combining analysis with business context. Experienced in presenting findings through structured narratives, ensuring clarity, impact, and actionable recommendations for stakeholders.
+                        </p>
+                        <div class="skill-tags">
+                            <span>Insight Communication</span><span>Business Analysis</span><span>Reporting</span><span>Presentation</span>
+                        </div>
+                        <a href="#" class="text-decoration-none fw-semibold small">View Case Studies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5" style="background-color: #000; padding-bottom: 80px;">
+        <div class="container text-center text-white">
+            <h2 class="fw-bold display-4 mb-4">Contact Me</h2>
+            <div class="text-center mt-4">
+                <a href="mailto:lesley.muzavazi@slu.edu" class="btn btn-outline-light px-4 py-2 rounded-pill fw-semibold">lesley.muzavazi@slu.edu</a>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="row justify-content-center mt-5">
+                <div class="col-6 col-md-2 mb-4">
+                    <a href="https://www.linkedin.com/in/lesley-muzavazi-2b911a1b7/" target="_blank" class="text-decoration-none text-white">
+                        <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mx-auto" style="width: 80px; height: 80px;">
+                            <i class="bi bi-linkedin fs-3"></i>
+                        </div>
+                        <p class="mt-2">LinkedIn</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <a href="https://github.com/lesleymuzavazi" target="_blank" class="text-decoration-none text-white">
+                        <div class="bg-danger rounded-circle d-flex align-items-center justify-content-center mx-auto" style="width: 80px; height: 80px;">
+                            <i class="bi bi-github fs-3"></i>
+                        </div>
+                        <p class="mt-2">GitHub</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
